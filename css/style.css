@@ -72,6 +72,7 @@ main #ms_jumbotron .ms_jumbo-img {
 }
 
 main #ms_jumbotron .ms_jumbo-img img {
+    width: 60%;
     object-fit: cover;
 }
 
@@ -88,27 +89,33 @@ main #ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     background-color: #CD3D0F;
 }
 
+/* ---jumbo menu  */
 
+#ms_jumbo-menu .ms_box-img {
+    border-radius: 10px;
+    padding: 15px;
+}
 
-
+#ms_jumbo-menu .ms_box-img img {
+    border-radius: 10px;
+    object-fit: cover;
+}
 
 
 /* debug  */
 
-.debug #ms_jumbotron {
+/* .debug #ms_jumbotron {
     background-color: cadetblue;
 }
 
 .debug #ms_jumbo-menu {
     background-color: crimson;
-    
 }
 
 .debug #ms_jumbo-menu .ms_box-img {
     background-color: lightgrey;
-    height: 100px;
     border: 1px solid black;
-}
+} */
 
 .debug .ms_section-title {
     background-color: blue;
