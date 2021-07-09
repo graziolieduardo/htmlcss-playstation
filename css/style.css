@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common  */
+
+
+
+
+
+/* header  */
+
+header {
+    height: 90px;
+}
+
+header .ms_sony-bar {
+    height: 30px;
+    background-color: black;
+}
+
+header nav {
+    height: 60px;
+}
+
+
+
+
+
+/* debug  */
+
+.debug header {
+    background-color: blueviolet;
+}
+
+.debug nav {
+    background-color: brown;
+}
+
+.debug #ms_jumbotron {
+    background-color: cadetblue;
+    height: 600px;
+}
+
+.debug #ms_jumbo-img {
+    background-color: crimson;
+    
+}
+
+.debug #ms_jumbo-img .ms_box-img {
+    background-color: lightgrey;
+    height: 100px;
+    border: 1px solid black;
+}
