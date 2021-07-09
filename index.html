@@ -28,29 +28,50 @@
                         </div>
                         <ul class="ms_menu-list m-0 p-0 d-none d-lg-flex">
                             <li>
-                                <a href="#">Giochi</a>
+                                <a href="#">
+                                    <span>Giochi</span>
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Hardware</a>
+                                <a href="#">
+                                    Hardware
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Servizi</a>
+                                <a href="#">
+                                    Servizi
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Novità</a>
+                                <a href="#">
+                                    Novità
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Fai acquisti</a>
+                                <a href="#">
+                                    Fai acquisti
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Supporto</a>
+                                <a href="#">
+                                    Supporto
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="ms_nav-right h-100">
                         <ul class="ms_menu-list d-none d-lg-flex align-items-center h-100 m-0 p-0">
                             <li>
-                                <a href="#">My PlayStation</a>
+                                <a href="#">
+                                    My PlayStation
+                                    <img src="img/chevron-down-solid.svg" alt="chevron">
+                                </a>
                             </li>
                             <li>
                                 <a href="#">
@@ -59,7 +80,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="img/lens.svg" alt="Search">
+                                    <img class="ms_search" src="img/lens.svg" alt="Search">
                                 </a>
                             </li>
                         </ul>
@@ -74,15 +95,15 @@
 
     <main>
         <!-- inizio jumbotron  -->
-        <section id="ms_jumbotron">
+        <section id="jumbo1" class="ms_jumbotron">
             <div class="container-fluid p-0 m-0">
                 <div class="row p-0 m-0">
                     <div class="col-12 ms_jumbo-img p-0 m-0">
                         <img class="w-100 h-100" src="img/jumbo-bg.png" alt="Returnal">
-                        <div class="ms_jumbo-img-info col col-lg-4 d-flex flex-column justify-content-around pe-3">
-                            <img src="img/returnal-hero-banner-logo.png" alt="">
-                            <h1 class="m-0">Rompi il cerchio</h1>
-                            <p class="m-0">
+                        <div class="ms_jumbo-img-info h-100 col col-lg-5 d-flex flex-column justify-content-end p-5">
+                            <img src="img/returnal-hero-banner-logo.png" alt="Returnal">
+                            <h1 class="m-0 py-4">Rompi il cerchio</h1>
+                            <p class="m-0 pb-4">
                                 Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5
                             </p>
                             <button class="ms_btn ms_cl-white">Acquista ora</button>
@@ -95,24 +116,24 @@
         <!-- inizio jumbo images  -->
         <section id="ms_jumbo-menu">
             <div class="container">
-                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 py-3 gy-3 ">
-                    <div class="ms_box-img">
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 py-5 gy-3 ">
+                    <div class="ms_box-img border border-2 border-primary">
                         <img class="w-100 h-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
                     </div>
-                    <div class="ms_box-img">
-                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
-                    </div>
-                    <div class="ms_box-img">
-                        <img class="w-100 h-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                    </div>
-                    <div class="ms_box-img">
-                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
+                    <div class="ms_box-img p-1">
+                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
                     </div>
                     <div class="ms_box-img">
                         <img class="w-100 h-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
                     </div>
                     <div class="ms_box-img">
-                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
+                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
+                    </div>
+                    <div class="ms_box-img">
+                        <img class="w-100 h-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                    </div>
+                    <div class="ms_box-img">
+                        <img class="w-100 h-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
                     </div>
                 </div>
             </div>
@@ -154,26 +175,45 @@
                     <div class="ms_play5-products col p-4">
                         <div class="row row-cols-3 row-cols-md-5">
                             <div class="ms_item text-center">
-                                <img src="img/playstation-5-thumb.png" alt="">
+                                <img src="img/playstation-5-thumb.png" alt="Play5">
                                 <div class="d-none d-md-block">Console PS5</div>
                             </div>
                             <div class="ms_item text-center">
-                                <img src="img/joypad-thumb.png" alt="">
+                                <img src="img/joypad-thumb.png" alt="Joypad">
                                 <div class="d-none d-md-block">Controller wireless DualSense</div>
                             </div>
                             <div class="ms_item text-center">
-                                <img src="img/headset-thumb.png" alt="">
+                                <img src="img/headset-thumb.png" alt="Headset">
                                 <div class="d-none d-md-block">Cuffie wireless con microfono PULSE 3</div>
                             </div>
                             <div class="ms_item text-center">
-                                <img src="img/remote-thumb.png" alt="">
+                                <img src="img/remote-thumb.png" alt="Remote">
                                 <div class="d-none d-md-block">Telecomando Media</div>
                             </div>
                             <div class="ms_item text-center">
-                                <img src="img/camera-thumb.jpg" alt="">
+                                <img src="img/camera-thumb.jpg" alt="Camera">
                                 <div class="d-none d-md-block">Telecamera HD</div>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- inizio jumbo 2  -->
+        <section id="jumbo2" class="ms_jumbotron">
+            <div class="container-fluid p-0 m-0">
+                <div class="row p-0 m-0">
+                    <div class="col-12 ms_jumbo-img p-0 m-0">
+                        <img class="w-100 h-100" src="img/it-takes-two-hero-banner-desktop.jpg" alt="Returnal">
+                        <div class="ms_jumbo-img-info h-100 col col-lg-4 d-flex flex-column justify-content-around p-5">
+                            <img src="img/it-takes-two-logo.png" alt="Returnal">
+                            <h1 class="m-0">Un'avventura cooperativa selvaggia ti attende</h1>
+                            <p class="m-0">
+                                Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                            </p>
+                            <button class="ms_btn ms_cl-white">Acquista ora</button>
                         </div>
                     </div>
                 </div>
