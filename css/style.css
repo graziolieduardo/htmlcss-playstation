@@ -60,37 +60,51 @@ header nav .ms_nav-right .ms_menu-list li img {
     width: 20px;
 }
 
+/* / header   */
+
+/* Main  */
+
+/* --- jumbotron  */
+
+main #ms_jumbotron .ms_jumbo-img {
+    position: relative;
+    height: 600px;
+}
+
+main #ms_jumbotron .ms_jumbo-img img {
+    object-fit: cover;
+}
+
+main #ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    height: 50%;
+    color: white
+}
+
+main #ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
+    width: 120px;
+    background-color: #CD3D0F;
+}
+
+
+
+
 
 
 /* debug  */
 
-/* .debug header {
-    background-color: blueviolet;
-}
-
-.debug nav {
-    background-color: brown;
-}
-
-.debug .ms_nav-left {
-    background-color: lightseagreen;
-}
-
-.debug .ms_nav-right {
-    background-color: lightpink;
-} */
-
 .debug #ms_jumbotron {
     background-color: cadetblue;
-    height: 600px;
 }
 
-.debug #ms_jumbo-img {
+.debug #ms_jumbo-menu {
     background-color: crimson;
     
 }
 
-.debug #ms_jumbo-img .ms_box-img {
+.debug #ms_jumbo-menu .ms_box-img {
     background-color: lightgrey;
     height: 100px;
     border: 1px solid black;
