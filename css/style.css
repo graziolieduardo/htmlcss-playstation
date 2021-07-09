@@ -6,9 +6,26 @@
 
 /* common  */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body .ms_btn {
+    padding: 5px 10px;
+    border-radius: 30px;
+}
 
+.ms_bg-darkgray {
+    background-color: #363636;
+}
 
+.ms_cl-white {
+    color: white;
+}
+
+.ms_cl-gray {
+    color: gray;
+}
 
 /* header  */
 
@@ -16,28 +33,52 @@ header {
     height: 90px;
 }
 
+/*--- sony bar  */
 header .ms_sony-bar {
     height: 30px;
     background-color: black;
 }
 
+/*--- nav bar  */
+
 header nav {
     height: 60px;
+    font-size: 16px;
 }
 
+header nav .ms_menu-list li {
+    list-style: none;
+    padding: 0 10px;
+}
 
+header nav .ms_menu-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav .ms_nav-right .ms_menu-list li img {
+    width: 20px;
+}
 
 
 
 /* debug  */
 
-.debug header {
+/* .debug header {
     background-color: blueviolet;
 }
 
 .debug nav {
     background-color: brown;
 }
+
+.debug .ms_nav-left {
+    background-color: lightseagreen;
+}
+
+.debug .ms_nav-right {
+    background-color: lightpink;
+} */
 
 .debug #ms_jumbotron {
     background-color: cadetblue;
