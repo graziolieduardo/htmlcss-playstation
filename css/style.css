@@ -19,12 +19,16 @@ body .ms_btn {
     background-color: #363636;
 }
 
+.ms_bg-blue {
+    background-color: #2D64E6;
+}
+
 .ms_cl-white {
     color: white;
 }
 
 .ms_cl-gray {
-    color: gray;
+    color: #727272;
 }
 
 /* header  */
@@ -92,49 +96,30 @@ main #ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
 /* ---jumbo menu  */
 
 #ms_jumbo-menu .ms_box-img {
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 15px;
 }
 
 #ms_jumbo-menu .ms_box-img img {
-    border-radius: 10px;
+    border-radius: 15px;
     object-fit: cover;
 }
+
+/* ---Play5  */
+
+#ms_play5 .ms_section-title span {
+    font-size: 14px;
+    color: #0072CE;
+    font-weight: bold;
+}
+
+#ms_play5 .ms_play5-info button {
+    width: 180px;
+}
+
 
 
 /* debug  */
 
-/* .debug #ms_jumbotron {
-    background-color: cadetblue;
-}
-
-.debug #ms_jumbo-menu {
-    background-color: crimson;
-}
-
-.debug #ms_jumbo-menu .ms_box-img {
-    background-color: lightgrey;
-    border: 1px solid black;
-} */
-
-.debug .ms_section-title {
-    background-color: blue;
-    height: 200px;
-}
-
-.debug .ms_play5-content {
-    background-color: lightpink;
-}
-
-.debug .ms_play5-content .ms_play5-info {
-    background-color: lightyellow;
-    height: 500px;
-}
-
-.debug .ms_play5-content .ms_play5-img {
-    background-color: lightslategrey;
-    height: 500px;
-}
 
 .debug .ms_play5-products {
     background-color: lightseagreen;
