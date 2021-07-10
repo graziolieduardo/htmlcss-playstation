@@ -144,7 +144,16 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     border-radius: 20px;
 }
 
+/* ---PlayStation Plus  */
 
+#ms_play-plus {
+    background-color: #BEBCBB;
+}
+
+#ms_play-plus .ms_plus-info button {
+    background-color: #D9DADC;
+    color: #2D64E6;
+}
 
 /* Media querry  */
 
