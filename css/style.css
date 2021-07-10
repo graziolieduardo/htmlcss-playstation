@@ -155,6 +155,20 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     color: #2D64E6;
 }
 
+/* ----PlayStation Now  */
+
+#ms_play-now {
+    background-color: #161C3B;
+    color: white;
+}
+
+#ms_play-now .ms_now-info button {
+    background-color: white;
+}
+
+
+
+
 /* Media querry  */
 
 @media screen and (min-width: 768px) {
