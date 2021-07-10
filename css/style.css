@@ -102,14 +102,8 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
 
 /* ---jumbo menu  */
 
-#ms_jumbo-menu .ms_box-img {
-    border-radius: 20px;
-    padding: 2px;
-}
-
 #ms_jumbo-menu .ms_box-img img {
     border-radius: 20px;
-    object-fit: cover;
 }
 
 /* ---Play5  */
@@ -139,6 +133,16 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     padding-bottom: 10px;
 }
 
+/* ---nuove uscite  */
+
+#ms_new-release {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+#ms_new-release .ms_box-img img {
+    border-radius: 20px;
+}
 
 
 
