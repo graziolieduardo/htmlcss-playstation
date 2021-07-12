@@ -166,6 +166,30 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     background-color: white;
 }
 
+/* Footer  */
+
+footer {
+    background-color: #00439C;
+    color: white;
+    font-size: 14px;
+}
+
+footer .ms_region img {
+    width: 20px;
+} 
+
+footer ul li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 
