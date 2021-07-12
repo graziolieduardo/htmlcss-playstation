@@ -96,8 +96,11 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info {
 }
 
 main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
-    width: 120px;
     background-color: #CD3D0F;
+}
+
+main #ms_jumbo-menu ul li {
+    list-style: none;
 }
 
 /* ---jumbo menu  */
@@ -112,10 +115,6 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     font-size: 14px;
     color: #0072CE;
     font-weight: bold;
-}
-
-#ms_play5 .ms_play5-info button {
-    width: 180px;
 }
 
 #ms_play5 .ms_play5-products .ms_item {
@@ -166,6 +165,8 @@ main .ms_jumbotron .ms_jumbo-img .ms_jumbo-img-info button {
     background-color: white;
 }
 
+
+
 /* Footer  */
 
 footer {
@@ -188,10 +189,6 @@ footer ul li a {
     text-decoration: none;
     color: white;
 }
-
-
-
-
 
 /* Media querry  */
 
