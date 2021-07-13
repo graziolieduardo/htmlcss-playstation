@@ -32,11 +32,17 @@ body .ms_btn {
     color: #727272;
 }
 
+hr {
+    border: 1px solid gray;
+    width: 100%;
+}
+
 /* header  */
 
 header {
     height: 90px;
 }
+
 
 /*--- sony bar  */
 header .ms_sony-bar {
@@ -47,11 +53,14 @@ header .ms_sony-bar {
 /*--- nav bar  */
 
 header nav {
+    position: relative;
     height: 60px;
     font-size: 16px;
 }
 
 header nav .ms_menu-list li {
+    display: flex;
+    height: 100%;
     list-style: none;
     padding: 0 10px;
 }
@@ -63,7 +72,8 @@ header nav .ms_menu-list li a {
     color: black;
 }
 
-header nav .ms_menu-list li a img {
+header nav .ms_menu-list li a .chevron-down,
+header nav .ms_menu-list li a .chevron-down-hover {
     width: 10px;
     margin-left: 5px;
 }
@@ -72,6 +82,49 @@ header nav .ms_nav-right .ms_menu-list li .ms_search{
     width: 20px;
 }
 
+/* drop menu  */
+
+header nav .ms_dropdown-menu {
+    display: none!important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 60;
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+header nav .ms_menu-list li:hover .ms_dropdown-menu {
+    display: flex!important;
+}
+
+header nav .ms_dropdown-menu img {
+    width: 70px;
+}
+
+header nav .ms_dm-bottom li:before {
+    content: "•"; 
+    color: #2D64E6;
+    display: inline-block; 
+    width: 1em;
+}
+
+header nav .ms_menu-list li a .chevron-down-hover {
+    display: none;
+}
+
+header nav .ms_menu-list li:hover .chevron-down-hover{
+    display: block;
+}
+
+header nav .ms_menu-list li:hover .chevron-down{
+    display: none;
+}
+
+header nav .ms_menu-list li:hover a{
+    color: #0070D1;
+}
 /* / header   */
 
 /* Main  */
@@ -106,7 +159,15 @@ main #ms_jumbo-menu ul li {
 /* ---jumbo menu  */
 
 #ms_jumbo-menu .ms_box-img img {
+    opacity: 0.7;
     border-radius: 20px;
+    transition: 0.2s linear;
+}
+
+#ms_jumbo-menu .ms_box-img:hover img {
+    transform: translatey(-10%);
+    box-shadow: 0px 15px 20px -10px;
+    opacity: 1;
 }
 
 /* ---Play5  */
@@ -165,12 +226,6 @@ main #ms_jumbo-menu ul li {
     background-color: white;
 }
 
-/* Social Media  */
-
-#ms_smedia {
-    max-width: 540px;
-    margin: 0 auto;
-}
 
 
 /* Footer  */
